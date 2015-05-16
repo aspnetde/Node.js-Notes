@@ -1,2 +1,7 @@
-# Notes-about-Node-npm-Co
-A collection of some helpful stuff around Node, npm &amp; Co
+# Node.js
+
+## Updating Node via npm
+
+	sudo npm cache clean -f
+	sudo npm install -g n
+	sudo n stable
