@@ -1,14 +1,20 @@
-# Node.js
+# Node.js Notes
 
-## Updating Node via npm
+## Node.js
+
+### Updating Node via npm
 
 	sudo npm cache clean -f
 	sudo npm install -g n
 	sudo n stable
 
-# npm
+## npm
 
-## Fixing npm permissions
+### Listing all globally installed packages
+
+	npm list -g --depth=0
+
+### Fixing npm permissions
 
 Find the path to npm's directory: 
 
