@@ -25,3 +25,14 @@ For many systems, this will be `/usr/local`. Change the owner of npm's directory
 	sudo chown -R `whoami` <directory>
 
 [(Source)](https://docs.npmjs.com/getting-started/fixing-npm-permissions)
+
+## General stuff
+
+### List all environment variables
+
+	printenv
+	
+### Set environment variable(s)
+
+	vi ~/.bash_profile
+	source ~/.bash_profile
